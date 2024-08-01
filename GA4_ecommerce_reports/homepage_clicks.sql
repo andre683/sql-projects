@@ -1,12 +1,3 @@
-INSERT INTO `tough-healer-395417.analytics_287163560.homepage_clicks` (
-  event_category,
-  event_subcategory,
-  date,
-  user_pseudo_id,
-  session_id,
-  transactions,
-  revenue
-)
 WITH homepage_clicks AS (
     SELECT
         user_pseudo_id,
